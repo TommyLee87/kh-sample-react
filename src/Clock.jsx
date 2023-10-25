@@ -14,11 +14,11 @@ const Clock = () => {
 
         const intervalID = setInterval(tick, 1000);
 
-        // 컴포넌트가 언마운트될 때 실행되는 클린업 함수입니다.
+        // 컴포넌트가 언마운트될 때 실행되는 클린업 함수
         return () => {
             clearInterval(intervalID);
         }
-    }, []);  // 빈 의존성 배열을 전달하여 훅이 컴포넌트 마운트 시에만 한 번 실행되도록 합니다.
+    }, []);  // [] 의존성 배열. 배열이 비어 있으면 화면이 마운트되는 시점을 의미
 
     return (
         <div>
