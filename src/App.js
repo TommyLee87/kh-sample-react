@@ -1,16 +1,15 @@
-import { Fragment } from 'react';
-import './App.css'
-import Section from './Section';
-import Say from './Say';
-import Clock from './Clock';
-import EventPractice from './onChange';
-import EventHandler from './EventHandler';
-import FruitSelect from './FruitSelect';
-import RadioButton from './RadioButton';
-import Table from './Table';
-import TableMap1 from './TableMap1';
-
-
+import { Fragment } from "react";
+import "./App.css";
+import Section from "./Section";
+import Say from "./Say";
+import Clock from "./Clock";
+import EventPractice from "./onChange";
+import EventHandler from "./EventHandler";
+import FruitSelect from "./FruitSelect";
+import RadioButton from "./RadioButton";
+import Table from "./Table";
+import TableMap1 from "./TableMap1";
+import CreateRef from "./UseRef";
 
 function App() {
   return (
@@ -20,15 +19,15 @@ function App() {
       {/* <Say name="곰돌이사육사" age={30}>
         안녕하세요.
     </Say> */}
-    {/* <MyComponent></MyComponent> */}
-    {/* <Clock/> */}
-    {/* <EventPractice/>*/}
-    {/* <EventHandler/>*/}
-    {/* <FruitSelect/>*/}
-    {/* <RadioButton/> */}
-    {/* <Table /> */}
-    <TableMap1 />
-
+      {/* <MyComponent></MyComponent> */}
+      {/* <Clock/> */}
+      {/* <EventPractice/>*/}
+      {/* <EventHandler/>*/}
+      {/* <FruitSelect/>*/}
+      {/* <RadioButton/> */}
+      {/* <Table /> */}
+      {/* <TableMap1 /> */}
+      <CreateRef />
     </>
   );
 }
