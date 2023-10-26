@@ -1,7 +1,20 @@
 .App {
   text-align: center;
-  color:darkgreen;
+  color: darkgreen;
   font-weight: bold;
-
 }
 
+h1 {
+  color: royalblue;
+}
+
+.title-name {
+  color: royalblue;
+  font-size: 2em;
+  background-color: orange;
+}
+
+.del-guide {
+  color: tomato;
+  font-style: italic;
+}
