@@ -16,8 +16,8 @@ import { Fragment } from "react";
 // import Counter from "./Hooks1";
 // import UseState from "./UseStateEx1";
 // import Info from "./Hooks2";
-
-import Average from "./Hooks4";
+// import Counter2 from "./Hooks3";
+// import Average from "./Hooks4";
 
 function App() {
   return (
@@ -41,7 +41,8 @@ function App() {
       {/* <Counter /> */}
       {/* <UseState /> */}
       {/* <Info /> */}
-      <Average />
+      {/* <Counter2 /> */}
+      {/* <Average /> */}
     </>
   );
 }
