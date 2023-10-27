@@ -31,12 +31,12 @@ const UseState = () => {
   };
 
   // [1] 따로하는 방식
-  const onChangeName = (e) => setEmp(e.target.value); //내용이 입력 될 때 변경 감지
-  const onChangeJob = (e) => setEmp(e.target.value);
-  const onChangeCompany = (e) => setEmp(e.target.value);
-  const onChangeAddress = (e) => setEmp(e.target.value);
-  const onChangeEmail = (e) => setEmp(e.target.value);
-  const onChangePhone = (e) => setEmp(e.target.value);
+  const onChangeName = (e) => setEmp({ ...emp, name: e.target.value });
+  const onChangeJob = (e) => setEmp({ ...emp, job: e.target.value });
+  const onChangeCompany = (e) => setEmp({ ...emp, company: e.target.value });
+  const onChangeAddress = (e) => setEmp({ ...emp, address: e.target.value });
+  const onChangeEmail = (e) => setEmp({ ...emp, email: e.target.value });
+  const onChangePhone = (e) => setEmp({ ...emp, phone: e.target.value });
 
   return (
     <>
